@@ -26,12 +26,22 @@ export interface EtherscanTx {
   result: Tx[];
 }
 
-export interface SwapTxnData {
+export interface TokenBuyData {
   txHash: string;
-  tokenIn: any;
-  tokenOut: any;
+  tokenIn: string;
+  tokenOut: string;
   amountIn: string;
   amountOut: string;
-  action: string;
   timestamp: number;
+}
+
+export interface AccountBalance {
+  address: string;
+  balance: string;
+  share: string;
+}
+
+export interface TokenHolders {
+  holdersCount: number;
+  topHolders: AccountBalance[];
 }
