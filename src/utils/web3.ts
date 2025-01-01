@@ -30,13 +30,13 @@ const pairContractAbi = [
   "event Swap(address indexed sender, uint256 amount0In, uint256 amount1In, uint256 amount0Out, uint256 amount1Out, address indexed to)",
 ];
 
-export async function getAddressTxns(address: string) {
+export async function getAddressTxns(contractAddress: string, page?: number) {
   const url = etherscan.getUrl("account", {
     action: "tokentx",
-    sort: "desc",
-    page: "1",
-    offset: "15",
-    address,
+    sort: "asc",
+    page: String(page || 1),
+    offset: "20",
+    contractAddress,
   });
 
   const tokenTxs = await apiFetcher<EtherscanTx>(url);
