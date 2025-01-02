@@ -89,7 +89,7 @@ export async function displayTopTraders(
   const end = start + pageSize;
   const topHolders = topTraders[token]?.slice(start, end);
 
-  if (!topHolders.length) {
+  if (!topHolders || !topHolders.length) {
     return ctx.reply("Please do /info.");
   }
 
