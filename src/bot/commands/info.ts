@@ -1,9 +1,10 @@
 import { hardCleanUpBotMessage } from "@/utils/bot";
+import { formatM2Number } from "@/utils/general";
 import { sleep } from "@/utils/time";
 import {
   getFirstBuyers,
   getTokenDetails,
-  getTokenHolders,
+  getTopTraders,
   shortenEthAddress,
   TokenDetails,
 } from "@/utils/web3";
@@ -36,7 +37,7 @@ export async function infoStep(ctx: CommandContext<Context>) {
 
   const [firstBuyers, topHolders] = await Promise.all([
     getFirstBuyers(token),
-    getTokenHolders(token as string),
+    getTopTraders(token as string),
   ]);
 
   let firstBuyersText = `First 10 buyers of ${tokenDetails.symbol}:\n\n`;
@@ -60,14 +61,12 @@ export async function infoStep(ctx: CommandContext<Context>) {
 
   await sleep(1000);
 
-  let topHoldersText = `Top 10 holders of ${tokenDetails.symbol}:\n\n`;
-  for (const [index, balance] of topHolders.topHolders.entries()) {
-    const { address, share } = balance;
+  let topHoldersText = `Top 50 most profitable traders of ${tokenDetails.symbol}:\n\n`;
+  for (const [index, balance] of topHolders.slice(0, 50).entries()) {
+    const { address, pnl } = balance;
     topHoldersText += `${index + 1}\\. [${hardCleanUpBotMessage(
       shortenEthAddress(address)
-    )}](https://etherscan.io/address/${address}) \\- ${hardCleanUpBotMessage(
-      share
-    )}%\n`;
+    )}](https://etherscan.io/address/${address}) \\- $${formatM2Number(pnl)}\n`;
   }
 
   ctx.reply(topHoldersText, {

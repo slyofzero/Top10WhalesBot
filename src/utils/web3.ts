@@ -1,12 +1,13 @@
 import { etherscan, provider } from "@/ethWeb3";
 import { ethers } from "ethers";
-import { apiFetcher } from "./api";
+import { apiFetcher, apiPoster } from "./api";
 import {
   AccountBalance,
   EtherscanTx,
   TokenBuyData,
   TokenHolders,
 } from "@/types";
+import { TopTraders } from "@/types/topTraders";
 
 export interface TokenDetails {
   symbol: any;
@@ -49,6 +50,7 @@ export async function getAddressTxns(contractAddress: string, page?: number) {
     contractAddress,
   });
 
+  console.log(url);
   const tokenTxs = await apiFetcher<EtherscanTx>(url);
   const txs = tokenTxs?.data.result || [];
   return txs;
@@ -59,12 +61,13 @@ export async function getFirstBuyers(token: string) {
   const tokenDetails = new Map<string, { symbol: string; decimals: number }>();
   const tokenBuys = new Map<string, TokenBuyData>();
   let page = 1;
+  const totalSize = 10;
 
-  mainLoop: while (tokenBuys.size <= 10 && page <= 10) {
+  mainLoop: while (tokenBuys.size <= totalSize && page <= 10) {
     const txns = await getAddressTxns(token, page);
 
     for (const txn of txns) {
-      if (tokenBuys.size >= 10) break mainLoop;
+      if (tokenBuys.size >= totalSize) break mainLoop;
       if (txnHashs.has(txn.hash)) continue;
 
       const receipt = await provider.getTransactionReceipt(txn.hash);
@@ -168,9 +171,32 @@ export async function getFirstBuyers(token: string) {
       txnHashs.add(txn.hash);
     }
     page++;
+    console.log(tokenBuys.size);
   }
 
   return tokenBuys;
+}
+
+export async function getTopTraders(token: string) {
+  const body = {
+    jsonrpc: "2.0",
+    id: 1,
+    method: "collections@getAnalytics",
+    params: {
+      mode: "top",
+      chain: "ethereum",
+      token: token,
+      tokens: [],
+      sort: "pnl",
+      sortType: "desc",
+    },
+  };
+  const { data } = await apiPoster<TopTraders>(
+    "https://api.dexwhales.xyz/api/v0/collections/rpc",
+    body
+  );
+
+  return data.result.wallets;
 }
 
 export async function getTokenHolders(token: string): Promise<TokenHolders> {

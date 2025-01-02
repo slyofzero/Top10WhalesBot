@@ -1,219 +1,912 @@
 {
   "response": 200,
   "data": {
-    "status": "1",
-    "message": "OK",
-    "result": [
-      {
-        "blockNumber": "20977657",
-        "timeStamp": "1729076087",
-        "hash": "0x5590a9f738da06711c02df512e559bbd78138ed461e8cc9e569ad63ba6fea0b6",
-        "nonce": "401",
-        "blockHash": "0x6dd8671464ffecb5907f2338a067a3cd9716e3679cea711e915ca1c99a39515d",
-        "from": "0x89367d63e29b14a70fc045da4552593690c1ef20",
-        "contractAddress": "0x5b342f03d126314d925fa57a45654f92905e6451",
-        "to": "0x164bc39cea3d1bdb52d00c72a65c412741a04fbb",
-        "value": "0",
-        "tokenName": "Moneta",
-        "tokenSymbol": "MNTA",
-        "tokenDecimal": "18",
-        "transactionIndex": "72",
-        "gas": "73659",
-        "gasPrice": "10527868665",
-        "gasUsed": "48719",
-        "cumulativeGasUsed": "8676559",
-        "input": "deprecated",
-        "confirmations": "449687"
-      },
-      {
-        "blockNumber": "20948334",
-        "timeStamp": "1728721715",
-        "hash": "0xf2002e52c6ebbd869efb4c61019019f94ae51f06793b912e00b0d4810fa1806f",
-        "nonce": "218",
-        "blockHash": "0x83b8c45bdd8062d05917fe8627baa35fc0b01d8355e6892eec6f8800a45e3b4e",
-        "from": "0x164bc39cea3d1bdb52d00c72a65c412741a04fbb",
-        "contractAddress": "0xcb76314c2540199f4b844d4ebbc7998c604880ca",
-        "to": "0x2d06201f9525297ac038af0718325401ad16bf77",
-        "value": "2000000000000000000000",
-        "tokenName": "Strawberry AI",
-        "tokenSymbol": "BERRY",
-        "tokenDecimal": "18",
-        "transactionIndex": "156",
-        "gas": "41813",
-        "gasPrice": "7946010192",
-        "gasUsed": "36939",
-        "cumulativeGasUsed": "12831440",
-        "input": "deprecated",
-        "confirmations": "479010"
-      },
-      {
-        "blockNumber": "20925451",
-        "timeStamp": "1728445787",
-        "hash": "0xa9f88f0d8433d848d0fbc183ad103ebeb776df49cb12e16b72fa468a1b3c9ad5",
-        "nonce": "48",
-        "blockHash": "0x60e3d7eeb713ee7abf9ff6d3519b3dc92d30c2de9aabbb6cf9244285875dd693",
-        "from": "0x2d06201f9525297ac038af0718325401ad16bf77",
-        "contractAddress": "0xcb76314c2540199f4b844d4ebbc7998c604880ca",
-        "to": "0x164bc39cea3d1bdb52d00c72a65c412741a04fbb",
-        "value": "2000000000000000000000",
-        "tokenName": "Strawberry AI",
-        "tokenSymbol": "BERRY",
-        "tokenDecimal": "18",
-        "transactionIndex": "214",
-        "gas": "89483",
-        "gasPrice": "12928560632",
-        "gasUsed": "58839",
-        "cumulativeGasUsed": "23434662",
-        "input": "deprecated",
-        "confirmations": "501893"
-      },
-      {
-        "blockNumber": "20916662",
-        "timeStamp": "1728339971",
-        "hash": "0x96b48b204ae869b1cdf20fe4707ec032fb2dc5e3d79de5710737504ec0fd6839",
-        "nonce": "215",
-        "blockHash": "0xe807a624b7f5b9dafd6a509ba80de52236784204826f1bc237141ef2e7f8d280",
-        "from": "0x164bc39cea3d1bdb52d00c72a65c412741a04fbb",
-        "contractAddress": "0x5b342f03d126314d925fa57a45654f92905e6451",
-        "to": "0xf15ce902277f1ca1f1e0cf561c46a6841d1c0043",
-        "value": "19000000000000000000",
-        "tokenName": "Moneta",
-        "tokenSymbol": "MNTA",
-        "tokenDecimal": "18",
-        "transactionIndex": "14",
-        "gas": "187108",
-        "gasPrice": "13768746429",
-        "gasUsed": "160905",
-        "cumulativeGasUsed": "3518348",
-        "input": "deprecated",
-        "confirmations": "510682"
-      },
-      {
-        "blockNumber": "20916662",
-        "timeStamp": "1728339971",
-        "hash": "0x96b48b204ae869b1cdf20fe4707ec032fb2dc5e3d79de5710737504ec0fd6839",
-        "nonce": "215",
-        "blockHash": "0xe807a624b7f5b9dafd6a509ba80de52236784204826f1bc237141ef2e7f8d280",
-        "from": "0x164bc39cea3d1bdb52d00c72a65c412741a04fbb",
-        "contractAddress": "0x5b342f03d126314d925fa57a45654f92905e6451",
-        "to": "0x5b342f03d126314d925fa57a45654f92905e6451",
-        "value": "1000000000000000000",
-        "tokenName": "Moneta",
-        "tokenSymbol": "MNTA",
-        "tokenDecimal": "18",
-        "transactionIndex": "14",
-        "gas": "187108",
-        "gasPrice": "13768746429",
-        "gasUsed": "160905",
-        "cumulativeGasUsed": "3518348",
-        "input": "deprecated",
-        "confirmations": "510682"
-      },
-      {
-        "blockNumber": "20900000",
-        "timeStamp": "1728139295",
-        "hash": "0x11c856fedc4db5c4743309b6617c3dc903fbd23d1a02125970124519bbe779dd",
-        "nonce": "122",
-        "blockHash": "0x429e5c23fc79a96f9dbbfc196c0cd40f425517ea4a3adf1cb475bdfaba064609",
-        "from": "0xe6971bcdc3001a87a3c28b530c3cb6eecffa0486",
-        "contractAddress": "0x5b342f03d126314d925fa57a45654f92905e6451",
-        "to": "0x164bc39cea3d1bdb52d00c72a65c412741a04fbb",
-        "value": "0",
-        "tokenName": "Moneta",
-        "tokenSymbol": "MNTA",
-        "tokenDecimal": "18",
-        "transactionIndex": "113",
-        "gas": "73659",
-        "gasPrice": "7743069108",
-        "gasUsed": "48719",
-        "cumulativeGasUsed": "15898027",
-        "input": "deprecated",
-        "confirmations": "527344"
-      },
-      {
-        "blockNumber": "20893649",
-        "timeStamp": "1728062807",
-        "hash": "0x19c1a05b6d6843f2d31da647699f0c301435e243ee0fa3417b519b8c372f251b",
-        "nonce": "69",
-        "blockHash": "0x1a8c084282732c1894906b29436186f7db842751d5c8552b6a63e61340200b5b",
-        "from": "0x336ffe4a3add3b997058830ee29ba5e05d360920",
-        "contractAddress": "0x5b342f03d126314d925fa57a45654f92905e6451",
-        "to": "0x164bc39cea3d1bdb52d00c72a65c412741a04fbb",
-        "value": "0",
-        "tokenName": "Moneta",
-        "tokenSymbol": "MNTA",
-        "tokenDecimal": "18",
-        "transactionIndex": "64",
-        "gas": "328870",
-        "gasPrice": "11504379937",
-        "gasUsed": "173234",
-        "cumulativeGasUsed": "6152029",
-        "input": "deprecated",
-        "confirmations": "533695"
-      },
-      {
-        "blockNumber": "20890653",
-        "timeStamp": "1728026771",
-        "hash": "0x8511b6f461f4e48eaa9dc50da5c1c0b7497d5bfe7eb2a546823bfa1a112196b0",
-        "nonce": "2",
-        "blockHash": "0xf9c599c74a9c441c469a6cb1b7424bc943f47f75882948207aad15dd064ea2cc",
-        "from": "0x972b61fd32b7e4abbfc9d3ccd3f43b277ae48308",
-        "contractAddress": "0x80122c6a83c8202ea365233363d3f4837d13e888",
-        "to": "0x164bc39cea3d1bdb52d00c72a65c412741a04fbb",
-        "value": "500000000000000000000000",
-        "tokenName": "Messier",
-        "tokenSymbol": "M87",
-        "tokenDecimal": "18",
-        "transactionIndex": "206",
-        "gas": "118135",
-        "gasPrice": "5237773806",
-        "gasUsed": "77865",
-        "cumulativeGasUsed": "29200430",
-        "input": "deprecated",
-        "confirmations": "536691"
-      },
-      {
-        "blockNumber": "20888190",
-        "timeStamp": "1727997179",
-        "hash": "0xf6b1759b0aaa3c316758862e21e1abf0e36bcf31679ddca42c3a80c91a8f9ba5",
-        "nonce": "211",
-        "blockHash": "0xdf4261cf1d336dffd4541bded0a4a64f430d473c15b726b9e3c9f5aea15fb861",
-        "from": "0x164bc39cea3d1bdb52d00c72a65c412741a04fbb",
-        "contractAddress": "0x6019dcb2d0b3e0d1d8b0ce8d16191b3a4f93703d",
-        "to": "0xdf15ddb8a27e689f3b43d60c3bf13c3f312d388a",
-        "value": "3126000000000000000000",
-        "tokenName": "QuantumFusion",
-        "tokenSymbol": "QF",
-        "tokenDecimal": "18",
-        "transactionIndex": "171",
-        "gas": "52695",
-        "gasPrice": "3275797133",
-        "gasUsed": "47715",
-        "cumulativeGasUsed": "13240861",
-        "input": "deprecated",
-        "confirmations": "539154"
-      },
-      {
-        "blockNumber": "20885048",
-        "timeStamp": "1727959211",
-        "hash": "0x43287987b60b407564fa393779d4240232eb21d80320d7ccc7fa00382df9356d",
-        "nonce": "24",
-        "blockHash": "0x4f4ed00b14279b5b9a34690acb5a9a7755ec97b009d154504e209caddba9e046",
-        "from": "0x3672e98eb4e5ad0c11d585b9e1409712c89ad720",
-        "contractAddress": "0xaa1b44b5ad5dd5e8c8b833c0c4d92ead1dfd64e3",
-        "to": "0x164bc39cea3d1bdb52d00c72a65c412741a04fbb",
-        "value": "35720581960254123651369675928",
-        "tokenName": "Baby Pochita",
-        "tokenSymbol": "BABYPOCHITA",
-        "tokenDecimal": "18",
-        "transactionIndex": "10",
-        "gas": "4878558",
-        "gasPrice": "8644575075",
-        "gasUsed": "3225605",
-        "cumulativeGasUsed": "7449643",
-        "input": "deprecated",
-        "confirmations": "542296"
-      }
-    ]
+    "id": "1",
+    "result": {
+      "status": "synced",
+      "wallets": [
+        {
+          "address": "0xF6d1787Ff52AFD872156F764569F7B819c38E63e",
+          "trades_count": 106,
+          "trades": 1219700,
+          "pnl": 1100000,
+          "pnl_x": 55.837563,
+          "sell": { "amount": 1200000, "txns": 93 },
+          "buy": { "amount": 19700, "txns": 13 }
+        },
+        {
+          "address": "0x3b7443Cc9a4E4C4cE435B873F4e1dDe36929ce71",
+          "trades_count": 74,
+          "trades": 1101964,
+          "pnl": 1100000,
+          "pnl_x": 560.081466,
+          "sell": { "amount": 1100000, "txns": 73 },
+          "buy": { "amount": 1964, "txns": 1 }
+        },
+        {
+          "address": "0x820168E15Ec0C16cD757257399519429eB2B31cc",
+          "trades_count": 54,
+          "trades": 674466,
+          "pnl": 661100,
+          "pnl_x": 99.174917,
+          "sell": { "amount": 667800, "txns": 51 },
+          "buy": { "amount": 6666, "txns": 3 }
+        },
+        {
+          "address": "0x1245e1d224D63E5883749666Aa2b612C87F0B051",
+          "trades_count": 41,
+          "trades": 463000,
+          "pnl": 433200,
+          "pnl_x": 29.073826,
+          "sell": { "amount": 448100, "txns": 36 },
+          "buy": { "amount": 14900, "txns": 5 }
+        },
+        {
+          "address": "0x1D0A132ceD9e9Dc3cfb04f6e987242C56e3cA538",
+          "trades_count": 34,
+          "trades": 402334,
+          "pnl": 397300,
+          "pnl_x": 156.787687,
+          "sell": { "amount": 399800, "txns": 32 },
+          "buy": { "amount": 2534, "txns": 2 }
+        },
+        {
+          "address": "0x6f0bfd9504a4DF4e360E840E071Fdcd1dc395D56",
+          "trades_count": 170,
+          "trades": 503500,
+          "pnl": 370600,
+          "pnl_x": 5.581325,
+          "sell": { "amount": 437100, "txns": 20 },
+          "buy": { "amount": 66400, "txns": 150 }
+        },
+        {
+          "address": "0xB442E18E58761b23E96778F79954493F913E5b6A",
+          "trades_count": 34,
+          "trades": 350641,
+          "pnl": 338900,
+          "pnl_x": 58.020887,
+          "sell": { "amount": 344800, "txns": 29 },
+          "buy": { "amount": 5841, "txns": 5 }
+        },
+        {
+          "address": "0xC8c4CA99fac5c2dff67683D5F47076635E3b7161",
+          "trades_count": 11,
+          "trades": 371100,
+          "pnl": 315400,
+          "pnl_x": 11.345324,
+          "sell": { "amount": 343300, "txns": 8 },
+          "buy": { "amount": 27800, "txns": 3 }
+        },
+        {
+          "address": "0x6e8F0ddeD256ab407cefA7BF1aEEbA126EE90383",
+          "trades_count": 57,
+          "trades": 305128,
+          "pnl": 304500,
+          "pnl_x": 928.353659,
+          "sell": { "amount": 304800, "txns": 56 },
+          "buy": { "amount": 328, "txns": 1 }
+        },
+        {
+          "address": "0x022a540D8110098068D18020f7a22D9Afe7f84A9",
+          "trades_count": 14,
+          "trades": 304266,
+          "pnl": 300500,
+          "pnl_x": 161.039657,
+          "sell": { "amount": 302400, "txns": 12 },
+          "buy": { "amount": 1866, "txns": 2 }
+        },
+        {
+          "address": "0x2045496BcF19Af8bF5fFbbB9A453550991629033",
+          "trades_count": 31,
+          "trades": 315900,
+          "pnl": 292900,
+          "pnl_x": 25.469565,
+          "sell": { "amount": 304400, "txns": 22 },
+          "buy": { "amount": 11500, "txns": 9 }
+        },
+        {
+          "address": "0x0509Ea0fB0876747D777A6dF093B02f280e55bF3",
+          "trades_count": 41,
+          "trades": 289100,
+          "pnl": 268500,
+          "pnl_x": 26.067961,
+          "sell": { "amount": 278800, "txns": 36 },
+          "buy": { "amount": 10300, "txns": 5 }
+        },
+        {
+          "address": "0x1114C78D5DE672996d812DC2E1a05b5F33EAcDFb",
+          "trades_count": 91,
+          "trades": 632000,
+          "pnl": 266200,
+          "pnl_x": 1.45544,
+          "sell": { "amount": 449100, "txns": 50 },
+          "buy": { "amount": 182900, "txns": 41 }
+        },
+        {
+          "address": "0xc48d912C6596a0138e058323fD9929209A66Cfd8",
+          "trades_count": 22,
+          "trades": 238004,
+          "pnl": 232600,
+          "pnl_x": 86.02071,
+          "sell": { "amount": 235300, "txns": 20 },
+          "buy": { "amount": 2704, "txns": 2 }
+        },
+        {
+          "address": "0xD5630029DAa7aeE58a4A087777E0a5412a9ae32D",
+          "trades_count": 35,
+          "trades": 209500,
+          "pnl": 184000,
+          "pnl_x": 14.488189,
+          "sell": { "amount": 196800, "txns": 24 },
+          "buy": { "amount": 12700, "txns": 11 }
+        },
+        {
+          "address": "0x2169d9d12f4945484327D3f6b5DA5760FE275E11",
+          "trades_count": 24,
+          "trades": 190737,
+          "pnl": 172100,
+          "pnl_x": 18.432045,
+          "sell": { "amount": 181400, "txns": 18 },
+          "buy": { "amount": 9337, "txns": 6 }
+        },
+        {
+          "address": "0x11c701BC35C1f7a32072301d01F91EBc458a25A1",
+          "trades_count": 20,
+          "trades": 141900,
+          "pnl": 141900,
+          "pnl_x": 141900,
+          "sell": { "amount": 141900, "txns": 20 },
+          "buy": { "amount": 0, "txns": 0 }
+        },
+        {
+          "address": "0x01fe4F948C512B68C1CD85Ba99cB4e34e6c8A2c9",
+          "trades_count": 14,
+          "trades": 156800,
+          "pnl": 131900,
+          "pnl_x": 10.637097,
+          "sell": { "amount": 144400, "txns": 13 },
+          "buy": { "amount": 12400, "txns": 1 }
+        },
+        {
+          "address": "0x60e3E6231C4bF0d21A28639F9F4D227FCd555555",
+          "trades_count": 9,
+          "trades": 165100,
+          "pnl": 131900,
+          "pnl_x": 7.945783,
+          "sell": { "amount": 148500, "txns": 8 },
+          "buy": { "amount": 16600, "txns": 1 }
+        },
+        {
+          "address": "0x4D39a39E8A6112c8B759733Ff0ec865F2c97Ac2E",
+          "trades_count": 41,
+          "trades": 199800,
+          "pnl": 125800,
+          "pnl_x": 3.4,
+          "sell": { "amount": 162800, "txns": 25 },
+          "buy": { "amount": 37000, "txns": 16 }
+        },
+        {
+          "address": "0x111206594F2fB5927f719b4417Ab1DA3D41B14b1",
+          "trades_count": 87,
+          "trades": 575400,
+          "pnl": 124400,
+          "pnl_x": 0.551663,
+          "sell": { "amount": 349900, "txns": 49 },
+          "buy": { "amount": 225500, "txns": 38 }
+        },
+        {
+          "address": "0xDA821CDb0D1b70Bd248dABD4eA2AA3CBd2a57fB6",
+          "trades_count": 16,
+          "trades": 132706,
+          "pnl": 123900,
+          "pnl_x": 28.120744,
+          "sell": { "amount": 128300, "txns": 12 },
+          "buy": { "amount": 4406, "txns": 4 }
+        },
+        {
+          "address": "0x4287cF0349E3A4fb5815D24bFe8d28C47e441C1E",
+          "trades_count": 36,
+          "trades": 118573,
+          "pnl": 113900,
+          "pnl_x": 47.998314,
+          "sell": { "amount": 116200, "txns": 33 },
+          "buy": { "amount": 2373, "txns": 3 }
+        },
+        {
+          "address": "0x9864bb0c0b43668E691bB4FE91E795e81ca17f4E",
+          "trades_count": 10,
+          "trades": 120820,
+          "pnl": 109200,
+          "pnl_x": 18.762887,
+          "sell": { "amount": 115000, "txns": 6 },
+          "buy": { "amount": 5820, "txns": 4 }
+        },
+        {
+          "address": "0xB7CCEA812443d449840c739dEc7fc6eE5d09F94D",
+          "trades_count": 25,
+          "trades": 125100,
+          "pnl": 102000,
+          "pnl_x": 8.869565,
+          "sell": { "amount": 113600, "txns": 21 },
+          "buy": { "amount": 11500, "txns": 4 }
+        },
+        {
+          "address": "0xB6F208570b67EBa3C8623eaC84ab5750AFe1Ad12",
+          "trades_count": 8,
+          "trades": 100500,
+          "pnl": 100500,
+          "pnl_x": 100500,
+          "sell": { "amount": 100500, "txns": 8 },
+          "buy": { "amount": 0, "txns": 0 }
+        },
+        {
+          "address": "0x5Deb6F32f9Ba3f44871F77756dB1204Ddec0AE65",
+          "trades_count": 21,
+          "trades": 173300,
+          "pnl": 99200,
+          "pnl_x": 2.681081,
+          "sell": { "amount": 136300, "txns": 16 },
+          "buy": { "amount": 37000, "txns": 5 }
+        },
+        {
+          "address": "0xE01acDE80954398e2E61e3Da7a5E4d675FC7749d",
+          "trades_count": 13,
+          "trades": 111698,
+          "pnl": 98300,
+          "pnl_x": 14.676023,
+          "sell": { "amount": 105000, "txns": 12 },
+          "buy": { "amount": 6698, "txns": 1 }
+        },
+        {
+          "address": "0x8159d3E281b01aE3df3C5b4F4Cd839441866C379",
+          "trades_count": 9,
+          "trades": 269600,
+          "pnl": 95100,
+          "pnl_x": 1.090596,
+          "sell": { "amount": 182400, "txns": 6 },
+          "buy": { "amount": 87200, "txns": 3 }
+        },
+        {
+          "address": "0xE92380c0F22C5CC8C43B5CA176166dcd5D251A2c",
+          "trades_count": 62,
+          "trades": 154900,
+          "pnl": 87400,
+          "pnl_x": 2.593472,
+          "sell": { "amount": 121200, "txns": 46 },
+          "buy": { "amount": 33700, "txns": 16 }
+        },
+        {
+          "address": "0x0F81769331Daf9B55b3e3cF4bEB1Aa0c4411FCEb",
+          "trades_count": 14,
+          "trades": 88923,
+          "pnl": 85100,
+          "pnl_x": 44.25377,
+          "sell": { "amount": 87000, "txns": 11 },
+          "buy": { "amount": 1923, "txns": 3 }
+        },
+        {
+          "address": "0xa06049b3dadb831c7FA290416658E81c8D2512Ea",
+          "trades_count": 34,
+          "trades": 111300,
+          "pnl": 84800,
+          "pnl_x": 6.424242,
+          "sell": { "amount": 98100, "txns": 23 },
+          "buy": { "amount": 13200, "txns": 11 }
+        },
+        {
+          "address": "0x2358b418448Ec4AB15C8987ce3025B61a3B1f9F0",
+          "trades_count": 22,
+          "trades": 88625,
+          "pnl": 83600,
+          "pnl_x": 33.108911,
+          "sell": { "amount": 86100, "txns": 18 },
+          "buy": { "amount": 2525, "txns": 4 }
+        },
+        {
+          "address": "0x93944eB02d173Ccbb73b333E253974eA2c1C554a",
+          "trades_count": 42,
+          "trades": 223000,
+          "pnl": 82700,
+          "pnl_x": 1.179743,
+          "sell": { "amount": 152900, "txns": 20 },
+          "buy": { "amount": 70100, "txns": 22 }
+        },
+        {
+          "address": "0x2352B619983Dc8711543e2a5Bf4937fd41Ca5109",
+          "trades_count": 16,
+          "trades": 95913,
+          "pnl": 81500,
+          "pnl_x": 11.299043,
+          "sell": { "amount": 88700, "txns": 14 },
+          "buy": { "amount": 7213, "txns": 2 }
+        },
+        {
+          "address": "0x096eA0499fD9f2D036Bc1bd834AFDE011D320000",
+          "trades_count": 5,
+          "trades": 126000,
+          "pnl": 79400,
+          "pnl_x": 3.407725,
+          "sell": { "amount": 102700, "txns": 4 },
+          "buy": { "amount": 23300, "txns": 1 }
+        },
+        {
+          "address": "0xf82c1FC3770765042E9644025d249aB0Fe808631",
+          "trades_count": 18,
+          "trades": 133000,
+          "pnl": 77600,
+          "pnl_x": 2.801444,
+          "sell": { "amount": 105300, "txns": 12 },
+          "buy": { "amount": 27700, "txns": 6 }
+        },
+        {
+          "address": "0xE6faAd82df3572Ae734bEF85256FdE576074d0c2",
+          "trades_count": 48,
+          "trades": 120100,
+          "pnl": 76500,
+          "pnl_x": 3.509174,
+          "sell": { "amount": 98300, "txns": 13 },
+          "buy": { "amount": 21800, "txns": 35 }
+        },
+        {
+          "address": "0xD0Ad916c6Fa7559b9816EC421C8221492C605E75",
+          "trades_count": 267,
+          "trades": 662900,
+          "pnl": 76100,
+          "pnl_x": 0.259373,
+          "sell": { "amount": 369500, "txns": 141 },
+          "buy": { "amount": 293400, "txns": 126 }
+        },
+        {
+          "address": "0xC508dcBa3774bfd41f43e75C5B862a6e65e2f568",
+          "trades_count": 8,
+          "trades": 76874,
+          "pnl": 75400,
+          "pnl_x": 97.416021,
+          "sell": { "amount": 76100, "txns": 7 },
+          "buy": { "amount": 774, "txns": 1 }
+        },
+        {
+          "address": "0x00000027F490ACeE7F11ab5fdD47209d6422C5a7",
+          "trades_count": 62,
+          "trades": 158400,
+          "pnl": 74200,
+          "pnl_x": 1.76247,
+          "sell": { "amount": 116300, "txns": 39 },
+          "buy": { "amount": 42100, "txns": 23 }
+        },
+        {
+          "address": "0x747a55ee282990eDC3f756093E01B0953c7b5166",
+          "trades_count": 41,
+          "trades": 215800,
+          "pnl": 72500,
+          "pnl_x": 1.01257,
+          "sell": { "amount": 144200, "txns": 29 },
+          "buy": { "amount": 71600, "txns": 12 }
+        },
+        {
+          "address": "0xCCb500F042A25EA50d4076CEE6f0d6C7fCd488d3",
+          "trades_count": 12,
+          "trades": 79000,
+          "pnl": 71200,
+          "pnl_x": 18.25641,
+          "sell": { "amount": 75100, "txns": 11 },
+          "buy": { "amount": 3900, "txns": 1 }
+        },
+        {
+          "address": "0x3caC963d207AEa2E0a4009f753fe2AfbfAE5400c",
+          "trades_count": 15,
+          "trades": 119600,
+          "pnl": 71100,
+          "pnl_x": 2.938017,
+          "sell": { "amount": 95400, "txns": 11 },
+          "buy": { "amount": 24200, "txns": 4 }
+        },
+        {
+          "address": "0x2eF7DdED8f6fC601828BcB60fcBfa89F74b71bec",
+          "trades_count": 19,
+          "trades": 67900,
+          "pnl": 67900,
+          "pnl_x": 67900,
+          "sell": { "amount": 67900, "txns": 19 },
+          "buy": { "amount": 0, "txns": 0 }
+        },
+        {
+          "address": "0x64462A9C20880565b884310f4EBD205999594cCa",
+          "trades_count": 18,
+          "trades": 72827,
+          "pnl": 64600,
+          "pnl_x": 15.653017,
+          "sell": { "amount": 68700, "txns": 10 },
+          "buy": { "amount": 4127, "txns": 8 }
+        },
+        {
+          "address": "0x481AaCF4d5f18F0d6f08A8f5952fEFd0339cC38c",
+          "trades_count": 9,
+          "trades": 64400,
+          "pnl": 64400,
+          "pnl_x": 64400,
+          "sell": { "amount": 64400, "txns": 9 },
+          "buy": { "amount": 0, "txns": 0 }
+        },
+        {
+          "address": "0xC9405aE4AD182aD4CB6339622d37C6C6285bA930",
+          "trades_count": 74,
+          "trades": 244700,
+          "pnl": 64300,
+          "pnl_x": 0.71286,
+          "sell": { "amount": 154500, "txns": 42 },
+          "buy": { "amount": 90200, "txns": 32 }
+        },
+        {
+          "address": "0x6269aD46C7cF19E71DdcA82814416D9eF11cD31c",
+          "trades_count": 16,
+          "trades": 78640,
+          "pnl": 62100,
+          "pnl_x": 7.536408,
+          "sell": { "amount": 70400, "txns": 10 },
+          "buy": { "amount": 8240, "txns": 6 }
+        },
+        {
+          "address": "0x77777639f22bb93B6Dca1345fF659F6f8CcD6958",
+          "trades_count": 16,
+          "trades": 261200,
+          "pnl": 60900,
+          "pnl_x": 0.608392,
+          "sell": { "amount": 161100, "txns": 12 },
+          "buy": { "amount": 100100, "txns": 4 }
+        },
+        {
+          "address": "0xfc9928F6590D853752824B0B403A6AE36785e535",
+          "trades_count": 239,
+          "trades": 509400,
+          "pnl": 60700,
+          "pnl_x": 0.27062,
+          "sell": { "amount": 285100, "txns": 142 },
+          "buy": { "amount": 224300, "txns": 97 }
+        },
+        {
+          "address": "0x336A747531a0b5bDb23825Caaa2e4bf9b52d7672",
+          "trades_count": 13,
+          "trades": 64436,
+          "pnl": 59900,
+          "pnl_x": 26.788909,
+          "sell": { "amount": 62200, "txns": 10 },
+          "buy": { "amount": 2236, "txns": 3 }
+        },
+        {
+          "address": "0xC8DaF15B6E98023889B7C59b07a6f3d3F810D755",
+          "trades_count": 28,
+          "trades": 59800,
+          "pnl": 59800,
+          "pnl_x": 59800,
+          "sell": { "amount": 59800, "txns": 28 },
+          "buy": { "amount": 0, "txns": 0 }
+        },
+        {
+          "address": "0x690a0d29DD85dDA1D904381De7Bc000f4cE503C8",
+          "trades_count": 13,
+          "trades": 75280,
+          "pnl": 59600,
+          "pnl_x": 7.563452,
+          "sell": { "amount": 67400, "txns": 10 },
+          "buy": { "amount": 7880, "txns": 3 }
+        },
+        {
+          "address": "0x8FCa933F4d88Ba871ffB361a7331b4725e617C90",
+          "trades_count": 10,
+          "trades": 71378,
+          "pnl": 59200,
+          "pnl_x": 9.740046,
+          "sell": { "amount": 65300, "txns": 6 },
+          "buy": { "amount": 6078, "txns": 4 }
+        },
+        {
+          "address": "0x42cAd45D1B09c07C707FDfCa3558b1beadDB8C74",
+          "trades_count": 8,
+          "trades": 60561,
+          "pnl": 58700,
+          "pnl_x": 61.082206,
+          "sell": { "amount": 59600, "txns": 7 },
+          "buy": { "amount": 961, "txns": 1 }
+        },
+        {
+          "address": "0x0018bd59acf79990671A6029d78A66eEC33e394B",
+          "trades_count": 34,
+          "trades": 88200,
+          "pnl": 58100,
+          "pnl_x": 3.873333,
+          "sell": { "amount": 73200, "txns": 13 },
+          "buy": { "amount": 15000, "txns": 21 }
+        },
+        {
+          "address": "0x2B1930524bd624fb6d9387646547F43EdD42C826",
+          "trades_count": 21,
+          "trades": 125300,
+          "pnl": 58100,
+          "pnl_x": 1.729167,
+          "sell": { "amount": 91700, "txns": 10 },
+          "buy": { "amount": 33600, "txns": 11 }
+        },
+        {
+          "address": "0x3AA2519155b51a487968e5453681834C36b00cAB",
+          "trades_count": 13,
+          "trades": 62742,
+          "pnl": 57200,
+          "pnl_x": 20.860686,
+          "sell": { "amount": 60000, "txns": 10 },
+          "buy": { "amount": 2742, "txns": 3 }
+        },
+        {
+          "address": "0x97f5Fb465341542cc049121570EDb8a8803604C1",
+          "trades_count": 7,
+          "trades": 95100,
+          "pnl": 56600,
+          "pnl_x": 2.947917,
+          "sell": { "amount": 75900, "txns": 2 },
+          "buy": { "amount": 19200, "txns": 5 }
+        },
+        {
+          "address": "0x6a368E20c94381cccb2640F5455da9D06B30ed23",
+          "trades_count": 18,
+          "trades": 57114,
+          "pnl": 56500,
+          "pnl_x": 179.936306,
+          "sell": { "amount": 56800, "txns": 17 },
+          "buy": { "amount": 314, "txns": 1 }
+        },
+        {
+          "address": "0xd9563f4341B4DEf95865873073037E37c6753d4f",
+          "trades_count": 28,
+          "trades": 90900,
+          "pnl": 55900,
+          "pnl_x": 3.194286,
+          "sell": { "amount": 73400, "txns": 15 },
+          "buy": { "amount": 17500, "txns": 13 }
+        },
+        {
+          "address": "0x1748789703159580520CC2cE6D1ba01e7359C44c",
+          "trades_count": 53,
+          "trades": 233900,
+          "pnl": 55000,
+          "pnl_x": 0.615213,
+          "sell": { "amount": 144500, "txns": 30 },
+          "buy": { "amount": 89400, "txns": 23 }
+        },
+        {
+          "address": "0xa3868ad7097d93c9B80978945C92A7d2C8174961",
+          "trades_count": 4,
+          "trades": 64547,
+          "pnl": 53500,
+          "pnl_x": 9.644853,
+          "sell": { "amount": 59000, "txns": 2 },
+          "buy": { "amount": 5547, "txns": 2 }
+        },
+        {
+          "address": "0x1a81af1aFa341d6617dbfb130BfF02d69E18D3C2",
+          "trades_count": 21,
+          "trades": 75200,
+          "pnl": 53000,
+          "pnl_x": 4.774775,
+          "sell": { "amount": 64100, "txns": 13 },
+          "buy": { "amount": 11100, "txns": 8 }
+        },
+        {
+          "address": "0x0219957fAFC72f937C6366855d0B7562CF5131bf",
+          "trades_count": 15,
+          "trades": 51500,
+          "pnl": 51500,
+          "pnl_x": 51500,
+          "sell": { "amount": 51500, "txns": 15 },
+          "buy": { "amount": 0, "txns": 0 }
+        },
+        {
+          "address": "0xE1D9e30D6c5DF3403381C12b85Be70C58F46ED4b",
+          "trades_count": 9,
+          "trades": 164600,
+          "pnl": 51100,
+          "pnl_x": 0.901235,
+          "sell": { "amount": 107900, "txns": 5 },
+          "buy": { "amount": 56700, "txns": 4 }
+        },
+        {
+          "address": "0xD95A780190Aef82AeCf12549B23f563FD1778451",
+          "trades_count": 32,
+          "trades": 105200,
+          "pnl": 50900,
+          "pnl_x": 1.878229,
+          "sell": { "amount": 78100, "txns": 20 },
+          "buy": { "amount": 27100, "txns": 12 }
+        },
+        {
+          "address": "0xD0b387Fb37BfDd2B6A226a6d7e41989B2f79184F",
+          "trades_count": 2,
+          "trades": 62012,
+          "pnl": 48400,
+          "pnl_x": 7.105109,
+          "sell": { "amount": 55200, "txns": 1 },
+          "buy": { "amount": 6812, "txns": 1 }
+        },
+        {
+          "address": "0x2c9f4d872c0904c5EfCd054AD9881501e6A77d2A",
+          "trades_count": 58,
+          "trades": 94400,
+          "pnl": 47900,
+          "pnl_x": 2.064655,
+          "sell": { "amount": 71200, "txns": 34 },
+          "buy": { "amount": 23200, "txns": 24 }
+        },
+        {
+          "address": "0x76a5Ee870a9f3d2883b47B62eF1d73aD4BA94495",
+          "trades_count": 9,
+          "trades": 74400,
+          "pnl": 47600,
+          "pnl_x": 3.552239,
+          "sell": { "amount": 61000, "txns": 8 },
+          "buy": { "amount": 13400, "txns": 1 }
+        },
+        {
+          "address": "0xa41A240ab366550E963E2653229ade04e46fB8f2",
+          "trades_count": 18,
+          "trades": 244000,
+          "pnl": 47300,
+          "pnl_x": 0.48118,
+          "sell": { "amount": 145700, "txns": 7 },
+          "buy": { "amount": 98300, "txns": 11 }
+        },
+        {
+          "address": "0xFFEBAAFc364e38eA8CA11165D5B8223Ca97B98F7",
+          "trades_count": 3,
+          "trades": 46000,
+          "pnl": 46000,
+          "pnl_x": 46000,
+          "sell": { "amount": 46000, "txns": 3 },
+          "buy": { "amount": 0, "txns": 0 }
+        },
+        {
+          "address": "0xd8BF20aBC9Bb82809DC0ca5D491Af421eB8E92b8",
+          "trades_count": 11,
+          "trades": 112800,
+          "pnl": 45200,
+          "pnl_x": 1.337278,
+          "sell": { "amount": 79000, "txns": 2 },
+          "buy": { "amount": 33800, "txns": 9 }
+        },
+        {
+          "address": "0xa9F8C9729c9b75cCaA27E271Af64AB32760d68FB",
+          "trades_count": 6,
+          "trades": 56963,
+          "pnl": 44800,
+          "pnl_x": 7.389081,
+          "sell": { "amount": 50900, "txns": 5 },
+          "buy": { "amount": 6063, "txns": 1 }
+        },
+        {
+          "address": "0xBd1c0DA639d90c4dc60dd3C117f2D33B6b902c89",
+          "trades_count": 56,
+          "trades": 100400,
+          "pnl": 44600,
+          "pnl_x": 1.598566,
+          "sell": { "amount": 72500, "txns": 30 },
+          "buy": { "amount": 27900, "txns": 26 }
+        },
+        {
+          "address": "0xAdE4e05C28751c22Cc9a229b5a1d26e975f5619D",
+          "trades_count": 15,
+          "trades": 55828,
+          "pnl": 44000,
+          "pnl_x": 7.422402,
+          "sell": { "amount": 49900, "txns": 8 },
+          "buy": { "amount": 5928, "txns": 7 }
+        },
+        {
+          "address": "0x2BDF1a698d39A4358e2C162dEacc038FAdb8A9d5",
+          "trades_count": 12,
+          "trades": 83400,
+          "pnl": 43400,
+          "pnl_x": 2.17,
+          "sell": { "amount": 63400, "txns": 9 },
+          "buy": { "amount": 20000, "txns": 3 }
+        },
+        {
+          "address": "0x19A7F93b44b77Db348d5641D03Da64FebDa627aC",
+          "trades_count": 5,
+          "trades": 78500,
+          "pnl": 43300,
+          "pnl_x": 2.460227,
+          "sell": { "amount": 60900, "txns": 2 },
+          "buy": { "amount": 17600, "txns": 3 }
+        },
+        {
+          "address": "0x93048a450caDDc812BCB70443966cDa6AA9Ac909",
+          "trades_count": 3,
+          "trades": 42800,
+          "pnl": 42800,
+          "pnl_x": 42800,
+          "sell": { "amount": 42800, "txns": 3 },
+          "buy": { "amount": 0, "txns": 0 }
+        },
+        {
+          "address": "0xc6C291b22E5F97499CCdBfa568db9B3150536f4D",
+          "trades_count": 70,
+          "trades": 131800,
+          "pnl": 42100,
+          "pnl_x": 0.939732,
+          "sell": { "amount": 87000, "txns": 42 },
+          "buy": { "amount": 44800, "txns": 28 }
+        },
+        {
+          "address": "0xa4dCB4F1aD30652FD3Aa9b1a698c06A21C10b5ab",
+          "trades_count": 31,
+          "trades": 108800,
+          "pnl": 42000,
+          "pnl_x": 1.257485,
+          "sell": { "amount": 75400, "txns": 27 },
+          "buy": { "amount": 33400, "txns": 4 }
+        },
+        {
+          "address": "0xa97d6aC7576c69681D8dc098a3F0dbAf9bC2E9d2",
+          "trades_count": 96,
+          "trades": 195100,
+          "pnl": 41700,
+          "pnl_x": 0.543677,
+          "sell": { "amount": 118400, "txns": 40 },
+          "buy": { "amount": 76700, "txns": 56 }
+        },
+        {
+          "address": "0xa6dcB19561FDA3E2C7dEc580CFfB3aD09F893235",
+          "trades_count": 41,
+          "trades": 351100,
+          "pnl": 40700,
+          "pnl_x": 0.262242,
+          "sell": { "amount": 195900, "txns": 25 },
+          "buy": { "amount": 155200, "txns": 16 }
+        },
+        {
+          "address": "0x906859182f893B6Cae570068AaB7Dd20ef2B5Ab1",
+          "trades_count": 18,
+          "trades": 148000,
+          "pnl": 40400,
+          "pnl_x": 0.750929,
+          "sell": { "amount": 94200, "txns": 6 },
+          "buy": { "amount": 53800, "txns": 12 }
+        },
+        {
+          "address": "0xbE84D31B2eE049DCb1d8E7c798511632b44d1b55",
+          "trades_count": 35,
+          "trades": 40200,
+          "pnl": 40200,
+          "pnl_x": 40200,
+          "sell": { "amount": 40200, "txns": 35 },
+          "buy": { "amount": 0, "txns": 0 }
+        },
+        {
+          "address": "0x316126f1ae657b3aBF3a7Ae3d3c8Cf9BeCE579Fe",
+          "trades_count": 5,
+          "trades": 39500,
+          "pnl": 39500,
+          "pnl_x": 39500,
+          "sell": { "amount": 39500, "txns": 5 },
+          "buy": { "amount": 0, "txns": 0 }
+        },
+        {
+          "address": "0x8061E39Ac673827B8C383f80A44f93B2903756eD",
+          "trades_count": 7,
+          "trades": 52865,
+          "pnl": 39400,
+          "pnl_x": 5.824095,
+          "sell": { "amount": 46100, "txns": 5 },
+          "buy": { "amount": 6765, "txns": 2 }
+        },
+        {
+          "address": "0x8966248E5Ca83Ed77FfeDCB82B53aE81549e4Dd7",
+          "trades_count": 5,
+          "trades": 39724,
+          "pnl": 39300,
+          "pnl_x": 175.446429,
+          "sell": { "amount": 39500, "txns": 3 },
+          "buy": { "amount": 224, "txns": 2 }
+        },
+        {
+          "address": "0x584136513223b8993027385D8837e2d81B335615",
+          "trades_count": 41,
+          "trades": 73400,
+          "pnl": 39100,
+          "pnl_x": 2.28655,
+          "sell": { "amount": 56300, "txns": 25 },
+          "buy": { "amount": 17100, "txns": 16 }
+        },
+        {
+          "address": "0x349eF0e4190d9E60704d8876bCAA28e11f9d990d",
+          "trades_count": 53,
+          "trades": 112200,
+          "pnl": 39000,
+          "pnl_x": 1.065574,
+          "sell": { "amount": 75600, "txns": 24 },
+          "buy": { "amount": 36600, "txns": 29 }
+        },
+        {
+          "address": "0xbE2b86F068BCDf96BFA088e1eE21c74498b6a563",
+          "trades_count": 9,
+          "trades": 58522,
+          "pnl": 38900,
+          "pnl_x": 3.960497,
+          "sell": { "amount": 48700, "txns": 2 },
+          "buy": { "amount": 9822, "txns": 7 }
+        },
+        {
+          "address": "0x12B2790b5308dad89698b334b1704E5dc0D26551",
+          "trades_count": 4,
+          "trades": 49317,
+          "pnl": 38300,
+          "pnl_x": 6.942179,
+          "sell": { "amount": 43800, "txns": 2 },
+          "buy": { "amount": 5517, "txns": 2 }
+        },
+        {
+          "address": "0x80421D21F53F0D21F5D7E38A078FbE363D42ED64",
+          "trades_count": 28,
+          "trades": 55441,
+          "pnl": 38200,
+          "pnl_x": 4.420785,
+          "sell": { "amount": 46800, "txns": 16 },
+          "buy": { "amount": 8641, "txns": 12 }
+        },
+        {
+          "address": "0x91b7134aE1E6B27DdF02913A062a2c599232bBD7",
+          "trades_count": 5,
+          "trades": 99100,
+          "pnl": 37500,
+          "pnl_x": 1.217532,
+          "sell": { "amount": 68300, "txns": 3 },
+          "buy": { "amount": 30800, "txns": 2 }
+        },
+        {
+          "address": "0x1D93A938203384D61dA544310217e59e60a03Eca",
+          "trades_count": 13,
+          "trades": 55416,
+          "pnl": 37200,
+          "pnl_x": 4.080737,
+          "sell": { "amount": 46300, "txns": 10 },
+          "buy": { "amount": 9116, "txns": 3 }
+        },
+        {
+          "address": "0x1Cbe364B4b6bcBAFfe2226358AE8D6A7Fc859481",
+          "trades_count": 15,
+          "trades": 58800,
+          "pnl": 37000,
+          "pnl_x": 3.394495,
+          "sell": { "amount": 47900, "txns": 8 },
+          "buy": { "amount": 10900, "txns": 7 }
+        },
+        {
+          "address": "0x7eD8562b655A949930B69fa1B70450bD3FAd23e8",
+          "trades_count": 10,
+          "trades": 49269,
+          "pnl": 36700,
+          "pnl_x": 5.854203,
+          "sell": { "amount": 43000, "txns": 9 },
+          "buy": { "amount": 6269, "txns": 1 }
+        },
+        {
+          "address": "0xE3D277ACEb3cB634C9Daee9e35d6a929CB4a70d5",
+          "trades_count": 3,
+          "trades": 41300,
+          "pnl": 36300,
+          "pnl_x": 14.52,
+          "sell": { "amount": 38800, "txns": 2 },
+          "buy": { "amount": 2500, "txns": 1 }
+        },
+        {
+          "address": "0x17B68439Be12F82Bb943aEA51763e32a2edd319e",
+          "trades_count": 10,
+          "trades": 42535,
+          "pnl": 36000,
+          "pnl_x": 11.128284,
+          "sell": { "amount": 39300, "txns": 6 },
+          "buy": { "amount": 3235, "txns": 4 }
+        }
+      ]
+    },
+    "jsonrpc": "2.0"
   }
 }
