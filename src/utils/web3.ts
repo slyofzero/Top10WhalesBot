@@ -8,6 +8,8 @@ import {
   TokenHolders,
 } from "@/types";
 import { TopTraders } from "@/types/topTraders";
+import { topTraders } from "@/vars/info";
+import { errorHandler } from "./handlers";
 
 export interface TokenDetails {
   symbol: any;
@@ -50,7 +52,6 @@ export async function getAddressTxns(contractAddress: string, page?: number) {
     contractAddress,
   });
 
-  console.log(url);
   const tokenTxs = await apiFetcher<EtherscanTx>(url);
   const txs = tokenTxs?.data.result || [];
   return txs;
@@ -171,32 +172,37 @@ export async function getFirstBuyers(token: string) {
       txnHashs.add(txn.hash);
     }
     page++;
-    console.log(tokenBuys.size);
   }
 
   return tokenBuys;
 }
 
 export async function getTopTraders(token: string) {
-  const body = {
-    jsonrpc: "2.0",
-    id: 1,
-    method: "collections@getAnalytics",
-    params: {
-      mode: "top",
-      chain: "ethereum",
-      token: token,
-      tokens: [],
-      sort: "pnl",
-      sortType: "desc",
-    },
-  };
-  const { data } = await apiPoster<TopTraders>(
-    "https://api.dexwhales.xyz/api/v0/collections/rpc",
-    body
-  );
+  try {
+    const body = {
+      jsonrpc: "2.0",
+      id: 1,
+      method: "collections@getAnalytics",
+      params: {
+        mode: "top",
+        chain: "ethereum",
+        token: token,
+        tokens: [],
+        sort: "pnl",
+        sortType: "desc",
+      },
+    };
+    const { data } = await apiPoster<TopTraders>(
+      "https://api.dexwhales.xyz/api/v0/collections/rpc",
+      body
+    );
 
-  return data.result.wallets;
+    topTraders[token] = data.result.wallets.slice(0, 50);
+    return true;
+  } catch (error) {
+    errorHandler(error);
+    return false;
+  }
 }
 
 export async function getTokenHolders(token: string): Promise<TokenHolders> {

@@ -1,10 +1,11 @@
 import { CallbackQueryContext, CommandContext, Context } from "grammy";
 import { errorHandler, log } from "@/utils/handlers";
 import { userState } from "@/vars/state";
-import { infoStep } from "./commands/info";
+import { infoStep, paginateTopTraders } from "./commands/info";
 
 const steps: { [key: string]: any } = {
   info: infoStep,
+  tt: paginateTopTraders,
 };
 
 const requestIds: { [key: number]: any } = {

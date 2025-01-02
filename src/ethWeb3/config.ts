@@ -4,7 +4,7 @@ import { RegisteredSubscription } from "web3/lib/commonjs/eth.exports";
 import { log } from "@/utils/handlers";
 import { ETHERSCAN_API_KEY } from "@/utils/env";
 
-const rpcUrl = `https://eth.llamarpc.com`;
+const rpcUrl = `https://ethereum.blockpi.network/v1/rpc/public`;
 const websocketURL = `wss://ethereum-rpc.publicnode.com`;
 
 export let web3: Web3<RegisteredSubscription> | null = null;
